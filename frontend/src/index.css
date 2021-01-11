@@ -1,0 +1,63 @@
+/* Form */
+
+.form {
+  max-width: 40rem;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.form>div {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.form label {
+  margin: 1rem 0;
+}
+
+input :focus {
+  outline: none;
+}
+
+input {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+}
+
+
+input,
+select,
+textarea,
+button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem #a4a4a4 solid;
+    font-size: 1.6rem;
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+button:hover {
+    border: 0.1rem #404040 solid;
+}
+
+button.primary {
+  background-color: orange;
+}
+
+.center{
+  height: 100%;
+  margin: 320px auto;
+  text-align: center;
+}
+.float{
+  text-align-last: end;
+}
+.top{
+  position: relative;
+}
